@@ -7,15 +7,15 @@ function CounterProject() {
     const [counter, setCounter] = useState(0);
 
     const increase = () => {
-        setCounter(count => count + 1);
+        setCounter(counter + 1);
     };
 
     const decrease = () => {
-        setCounter(count => count - 1);
+        setCounter(counter - 1);
     };
 
     const reset = () => {
-        setCounter(count => 0);
+        setCounter(0);
     };
 
 
